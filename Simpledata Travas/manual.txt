@@ -1,0 +1,25 @@
+Web Scrapping
+link do vídeo: https://www.youtube.com/watch?v=OpX5Y7dzNjI
+
+#conda activate mercadolivre
+
+1-Request
+    Solicita dados, recebe em HTML
+
+2-Selector
+    Seleciona os campos conforme elementos da pagina html
+
+3-Clean
+    Limpa dados (retira virgulas pontos etc)
+
+4-Export
+    Exporta para csv
+
+5-Consolida vendas (quem vendeu e qts peças)
+
+#Pandas - vai sair comando append -> concat (substituir)
+
+#Erro no pandas to_excel = pip install openpyxl
+
+#para compilar projeto = pyinstaller --onefile projeto.py
+
